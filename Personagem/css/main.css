@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    height: 100%;
+}
+
+.parent{
+    display: flex;
+}
+
+
+.siderbar{
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    background-color:royalblue;
+}
+
+.sidebar-pos{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);  
+}
+
+.img-sidebar{text-align: center}
+
+.img-sidebar img{
+    width: 100%;
+    border: 3px solid red;
+    border-radius: 50%;
+    
+}
+
+.menu{
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+    left: -0px;
+}
+
+.menu a{
+    color: white;
+    opacity: 0.4;
+    font-size: 20px;
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.menu a.selected{
+    opacity: 1;
+}
+
+.content{
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 200%;
+    overflow-y: auto;
+    padding: 0 3%; 
+}
+
+.descricao{
+    position:absolute;
+}
+
+
